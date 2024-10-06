@@ -34,22 +34,16 @@
 ![image](https://github.com/user-attachments/assets/0a33ba60-b0a5-4821-b303-dea5ca9f1931)
 
 # Pertanyaan dan Tugas
-1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS
-dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini.
-2. Apa perbedaan pendeklarasian CSS elemen h1 {...} dengan #intro h1 {...}? berikan
-penjelasannya!
-3. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada
-elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan
-penjelasan dan contohnya!
-4. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut
-terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser?
-Berikan penjelasan dan contohnya! ( <p id="paragraf-1" class="text-paragraf"
+1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini.
+2. Apa perbedaan pendeklarasian CSS elemen h1 {...} dengan intro h1 {...}? berikan penjelasannya!
+3. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!
+4. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya! ( <p id="paragraf-1" class="text-paragraf"
 
 # Jawab!
 1. saya sudah mengubah tampilan dengan menambahkan element line melengkung menambahkan shadow dalam tombol button dan mengubah warna paragraf
 ![image](https://github.com/user-attachments/assets/bf8f8058-bcff-4745-b62c-0c9ba96f8f8c)
 
-2. Pendeklarasian h1 { ... } adalah selector elemen yang akan menerapkan gaya ke semua elemen <h1> dalam dokumen, Sedangkan intro h1 { ... } adalah selector kombinasi ID dan elemen yang hanya akan menerapkan gaya pada elemen <h1> yang berada di dalam elemen dengan id="intro"
+2. Pendeklarasian h1 { ... } adalah selector elemen yang akan menerapkan gaya ke semua elemen <h1 dalam dokumen, Sedangkan intro <h1 { ... } adalah selector kombinasi ID dan elemen yang hanya akan menerapkan gaya pada elemen <h1 yang berada di dalam elemen dengan id="intro"
 
 3. Yang akan muncul pada web adalah inline CSS, contoh pada saat saya mengubah warna pada pada salah satu hyperlink, yang akan nampak dominan tetap backgroundnya. Warnanya akan muncul ketika kita mengklik pada hyperlink tersebut. Contoh seperti gambar dibawah ini:
 ![image](https://github.com/user-attachments/assets/a3679214-ed42-46fb-9068-b4477de7a486)
