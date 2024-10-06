@@ -50,7 +50,7 @@ Berikan penjelasan dan contohnya! ( <p id="paragraf-1" class="text-paragraf"
 ![image](https://github.com/user-attachments/assets/bf8f8058-bcff-4745-b62c-0c9ba96f8f8c)
 
 2. Pendeklarasian h1 { ... } adalah selector elemen yang akan menerapkan gaya ke semua elemen <h1> dalam dokumen,
-Sedangkan #intro h1 { ... } adalah selector kombinasi ID dan elemen yang hanya akan menerapkan gaya pada elemen <h1> yang berada di dalam elemen dengan id="intro"
+Sedangkan intro h1 { ... } adalah selector kombinasi ID dan elemen yang hanya akan menerapkan gaya pada elemen <h1> yang berada di dalam elemen dengan id="intro"
 
 3. Yang akan muncul pada web adalah inline CSS, contoh pada saat saya mengubah warna pada pada salah satu hyperlink, yang akan nampak dominan tetap backgroundnya. Warnanya akan muncul ketika kita mengklik pada hyperlink tersebut. Contoh seperti gambar dibawah ini:
 ![image](https://github.com/user-attachments/assets/a3679214-ed42-46fb-9068-b4477de7a486)
