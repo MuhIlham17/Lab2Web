@@ -1,0 +1,59 @@
+nav {
+    background: #20A759;
+    color:#fff;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(65, 41, 41, 0.3); 
+    border-radius: 8px
+    }
+    nav a {
+    color: #fff;
+    text-decoration: none;
+    padding:10px 20px;
+    transition: background 0.3s, transform 0.3s;
+    }
+    nav .active,
+    nav a:hover {
+    background: #c2b225;
+    transform: scale(1.1);
+    }
+    /* ID Selector */
+#intro {
+    background: #04658f;
+    border: 1px solid #099249;
+    min-height: 100px;
+    padding: 10px;
+    border-radius: 8px;
+    color: #07d474;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
+    }
+    #intro h1 {
+    text-align: left;
+    border: 0;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    }
+    /* Class Selector */
+    .button {
+    padding: 15px 20px;
+    background: #bebcbd;
+    color: #fff;
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.3s, transform 0.3s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+    .button:hover {
+        background: #a9a8a9; /* Warna berubah saat hover */
+        transform: scale(1.05); /* Efek membesar sedikit */
+    }
+    .btn-primary {
+    background: #720b7b;
+    color: #fff;
+    }
+    .btn-primary:hover {
+        background: #5e095e;
+    }
